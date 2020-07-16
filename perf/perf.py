@@ -57,5 +57,5 @@ print("PyTorch took %.3f +\\- %.3f ms" %
       (np.mean(times_pytorch), np.std(times_pytorch)))
 print("PyTorch Cuda took %.3f +\\- %.3f ms" %
       (np.mean(times_pytorch_cuda), np.std(times_pytorch_cuda)))
-print("Numpy took %.3f +\\- %.3f ms" %
+print("Scipy took %.3f +\\- %.3f ms" %
       (np.mean(times_numpy), np.std(times_numpy)))

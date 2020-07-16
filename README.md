@@ -50,5 +50,16 @@ and the two-dimensional example:
 python two_dimensional.py
 ```
 
+## Performance
+We include a performance script in the `perf/` folder. It compares the `torch` CPU and GPU implementations, and the `scipy` CPU implementation.
+The test case involves interpolating 4.5 million points on a 300 x 300 grid.
+The timing results on my machine (Intel i7-8700K and Nvidia 1080 TI) are:
+```
+PyTorch took 222.531 +\- 7.972 ms
+PyTorch Cuda took 12.502 +\- 0.493 ms
+Scipy took 421.471 +\- 4.278 ms
+```
+So the torch GPU implementation is 20 times faster than the torch CPU implementation, which itself is twice as fast as the `scipy` implementation
+
 ## License
 cvxpylayers carries an Apache 2.0 license.
