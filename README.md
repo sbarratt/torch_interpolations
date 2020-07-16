@@ -59,7 +59,7 @@ PyTorch took 222.531 +\- 7.972 ms
 PyTorch Cuda took 12.502 +\- 0.493 ms
 Scipy took 421.471 +\- 4.278 ms
 ```
-So the torch GPU implementation is 20 times faster than the torch CPU implementation, which itself is twice as fast as the `scipy` implementation
+So the torch GPU implementation is 20 times faster than the torch CPU implementation, which itself is twice as fast as the `scipy` implementation.
 
 ## License
-cvxpylayers carries an Apache 2.0 license.
+torch_interpolations carries an Apache 2.0 license.
